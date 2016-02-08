@@ -1,0 +1,210 @@
+.Tshirts {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul .footer1 {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+ul .Tshirts {
+  list-style-type: none;
+}
+
+.shirts{position:relative;}
+
+.shirtborder::before{
+  content: "\f0e2";
+  font-family: FontAwesome;
+  color:#5CA4DC;
+  font-weight: 100;
+  position:absolute;
+  top:0px;
+  right:0px;
+  border:2px solid #5CA4DC;
+  width:20px;
+  height:20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.shirtborder:hover::before {
+  background-color: #5CA4DC;
+  color: #FFF;
+  padding-bottom:3px;
+  cursor:pointer;
+}
+
+ul .footer1 {
+  padding: 0px;
+  width: 210px;
+  height: 30px;
+  font-size: 14px;
+  width: 240px;
+  font-weight: 300;
+}
+.imagefooter {
+  font: Arial;
+  color: #5CA4DC;
+  border-bottom:2px solid #5CA4DC;
+}
+ul {
+  list-style-type: none;
+  padding: 23px 34px 0px 30px;
+  margin: 0px;
+}
+.exc li {
+  width: 44px;
+  height: 31px;
+  border-left: 2px solid #5CA4DC;
+  border-right: 0.5px solid #5CA4DC;
+  text-align: center;
+  line-height: 31px;
+  padding:0px;
+}
+.exc:hover {
+  background-color: #5CA4DC;
+  color: #FFF;
+  padding-bottom:3px;
+  cursor:pointer;
+}
+.heart li {
+  width: 45.5px;
+  height: 31px;
+  border-left: 2px solid #5CA4DC;
+  border-right: 0.5px solid #5CA4DC;
+  text-align: center;
+  line-height: 31px;
+}
+.heart:hover {
+  background-color: #5CA4DC;
+  color: #FFF;
+  cursor:pointer;
+}
+.swatch li {
+  width: 45.5px;
+  height: 31px;
+  border-left: 2px solid #5CA4DC;
+  border-right: 0.5px solid #5CA4DC;
+  text-align: center;
+  line-height: 38px;
+}
+.cart li {
+  width: 45.5px;
+  height: 31px;
+  border-right: 2px solid #5CA4DC;
+  border-left: 2px solid #5CA4DC;
+  text-align: center;
+  line-height: 31px;
+}
+.cart:hover {
+  background-color: #5CA4DC;
+  color: #FFF;
+  cursor:pointer;
+}
+.XL li {
+  width: 45.5px;
+  height: 31px;
+  border-left: 2px solid #5CA4DC;
+  border-right: 0.5px solid #5CA4DC;
+  text-align: center;
+  line-height: 31px;
+  font-family: Arial;
+}
+.XL:hover {
+  position: relative;
+  background-color: #5CA4DC;
+  color: #FFF;
+  cursor:pointer;
+}
+.XL:hover:after {
+  content: url(shirtsizes.jpg);
+  display: block;
+  position: absolute;
+  bottom: 28.5px;
+  left: -3px;
+  border-top: 2px solid #5CA4DC;
+  border-left: 2px solid #5CA4DC;
+  border-right: 2px solid #5CA4DC;
+  margin-bottom: 2px;
+}
+
+.XL:hover:before {
+  content:"";
+  display:block;
+  position:absolute;
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 7.8px 4.5px 0 4.5px;
+border-color: white transparent transparent transparent;
+right:19px;
+top:-2px;
+}
+
+.swatch:hover:before {
+  content:"";
+  display:block;
+  position:absolute;
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 7.8px 4.5px 0 4.5px;
+border-color: white transparent transparent transparent;
+right:19px;
+top:-2px;
+}
+.swatch:hover {
+  position: relative;
+  background-color: #5CA4DC;
+  color: #FFF;
+  cursor:pointer;
+}
+.swatch:hover img{
+  border:2px solid white;
+}
+.swatch:hover:after {
+  content: url(colorswatches.jpg);
+  display: block;
+  position: absolute;
+  bottom: 28.5px;
+  left: -3px;
+  border-top: 2px solid #5CA4DC;
+  border-left: 2px solid #5CA4DC;
+  border-right: 2px solid #5CA4DC;
+  margin-bottom: 2px;
+}
+.shirtborder img {
+  border: 2px solid #5CA4DC;
+  padding: 13px;
+}
+.shirtborder {
+  height: 230px;
+}
+.Caption {
+  height: 46px;
+  font-family: Arial;
+  color: #5CA4DC;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Bottom {
+  width: 240px;
+  height: 45px;
+}
+ul .Bottom {
+  padding: 0px;
+  display: inline-block;
+}
+.ShirtName {
+  font-weight: 100;
+}
+.shirts {
+  margin-right: 30px;
+}
+
+.refresh {
+  visibility: hidden;
+}
